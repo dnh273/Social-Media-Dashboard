@@ -1,0 +1,21 @@
+.lightMode {
+    .dashboard {
+        .dashboard__bx {
+            background-color: $Light-Grayish-Blue;
+            &:hover {
+                filter: brightness(0.95);
+            }
+            .dashboard__social {
+                color: $Dark-Grayish-Blue;
+            }
+            .dashboard__number {
+                p {
+                    color: $Very-Dark-Blue-1;
+                }
+                .dashboard__followers {
+                    color: $Dark-Grayish-Blue;
+                }
+            }
+        }
+    }
+}

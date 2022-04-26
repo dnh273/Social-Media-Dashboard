@@ -1,0 +1,40 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 1.6em;
+    input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $Toggle-Dark-Theme;
+        transition: all 0.3s;
+        border-radius: 30px;
+        &::before {
+            position: absolute;
+            content: "";
+            height: 1.2em;
+            width: 1.2em;
+            border-radius: 50%;
+            left: 0.3em;
+            bottom: 0.2em;
+            background-color: $Very-Dark-Blue-2;
+            transition: all 1.5s;
+        }
+    }
+    input:checked + .slider {
+        background: $Toggle-Light-Theme;
+    }
+    input:checked + .slider:before {
+        transform: translateX(1.7em);
+        background-color: $White;
+    }
+}

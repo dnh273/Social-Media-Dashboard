@@ -1,0 +1,25 @@
+.lightMode {
+    .overview {
+        .overview__title {
+            h2 {
+                color: $Dark-Grayish-Blue;
+            }
+        }
+        .overview__grid {
+            .overview__bx {
+                background-color: $Light-Grayish-Blue;
+                &:hover {
+                    filter: brightness(0.95);
+                }
+                .data__name {
+                    color: $Dark-Grayish-Blue;
+                }
+                .data__number {
+                    h1 {
+                        color: $Very-Dark-Blue-1;
+                    }
+                }
+            }
+        }
+    }
+}

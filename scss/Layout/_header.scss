@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__title {
+        @include styleText($White, 1.65rem, $fw-bold);
+    }
+    .header__subtitle {
+        color: $Desaturated-Blue;
+        line-height: 1.5rem;
+        font-weight: $fw-bold;
+    }
+    .darkMode {
+        display: flex;
+        align-items: center;
+        p {
+            padding-right: 1rem;
+            color: $Desaturated-Blue;
+            font-weight: $fw-bold;
+        }
+    }
+    @include responsive("small") {
+        flex-direction: column;
+        align-items: normal;
+        .header__line {
+            height: 1px;
+            width: 100%;
+            background-color: $Dark-Grayish-Blue;
+            margin: 1rem 0;
+        }
+    }
+}

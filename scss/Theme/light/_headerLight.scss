@@ -1,0 +1,15 @@
+.lightMode {
+    header {
+        .header__title {
+            color: $Very-Dark-Blue-1;
+        }
+        .header__subtitle {
+            color: $Dark-Grayish-Blue;
+        }
+        .darkMode {
+            p {
+                color: $Dark-Grayish-Blue;
+            }
+        }
+    }
+}
