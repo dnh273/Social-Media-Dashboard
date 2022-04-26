@@ -3,12 +3,15 @@
 @import "./extend";
 
 @import "./reset";
+@import "./container";
 @import "./Layout/header";
 @import "./Layout/dashboard";
 @import "./Layout/overview";
 @import "./switch";
+@import "./Layout/shade";
 
 // THEME
+@import "./Theme/light/shadeLight";
 @import "./Theme/light/resetLight";
 @import "./Theme/light/headerLight";
 @import "./Theme/light/dashboardLight";

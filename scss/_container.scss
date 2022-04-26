@@ -1,0 +1,12 @@
+.container {
+    padding: 2rem 10rem;
+    @include responsive("small") {
+        padding: 2rem 1.5rem;
+    }
+    @include responsive("large") {
+        padding: 2rem 6rem;
+    }
+    @include responsive("medium") {
+        padding: 2rem 3rem;
+    }
+}

@@ -7,14 +7,4 @@ body {
     font-family: "Inter", sans-serif;
     font-size: $fs-1;
     background-color: $Very-Dark-Blue-1;
-    padding: 2rem 10rem;
-    @include responsive("small") {
-        padding: 2rem 1.5rem;
-    }
-    @include responsive("large") {
-        padding: 2rem 6rem;
-    }
-    @include responsive("medium") {
-        padding: 2rem 3rem;
-    }
 }
