@@ -425,6 +425,7 @@ header .darkMode p {
 
 .shade {
   width: 100vw;
+  z-index: -1;
   height: 40%;
   position: absolute;
   background-color: #1f212e;
